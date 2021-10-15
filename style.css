@@ -19,8 +19,7 @@ body {
   padding-left: 12px;
 }
 .full-text {
-  padding-top:10%;
-  padding-bottom:10%;
+  padding-top:13%;
 }
 h2 {
   font-weight: 500;
@@ -39,6 +38,7 @@ p {
   margin-bottom: 16px;
 }
 .left-crop{
+  width: 1440px;
     background-size: auto;
     background-position-x: left;
 }

@@ -48,6 +48,9 @@ p {
     text-align: center;
     margin: 0 auto;
     }
+    .left-crop{
+      width: auto;
+    }
 }
 @media(max-width: 426px){
   .full-text {

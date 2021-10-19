@@ -38,7 +38,6 @@ p {
   margin-bottom: 16px;
 }
 .left-crop{
-  width: 1440px;
     background-size: auto;
     background-position-x: left;
 }

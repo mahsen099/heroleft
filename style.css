@@ -16,7 +16,7 @@ body {
 }
 .text-left {
   padding-right: 12px;
-  padding-left: 12px;
+  padding-left: 180px;
 }
 .full-text {
   padding-top:13%;
@@ -49,6 +49,9 @@ p {
     }
     .left-crop{
       width: auto;
+    }
+    .text-left {
+      padding-left: 12px;
     }
 }
 @media(max-width: 426px){

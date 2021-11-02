@@ -8,12 +8,16 @@ body {
 }
 .full-content{
   max-width: 1440px;
+  margin: 0 auto;
 }
 .mx{
   margin-left: 12px;
 }
 .full-text {
   padding-top:7%;
+}
+.text-left{
+  margin-right:0px;
 }
 h2 {
   font-weight: 500;
@@ -56,8 +60,8 @@ color:#ffffff;
 background-color:#446688;
 } 
 .button-text{
-  text-align: left;
   padding-left: 24px;
+  width: 50%;
 }
   /* media*/
   @media(max-width: 769px){
@@ -68,6 +72,7 @@ background-color:#446688;
       }
       .button-text{
         text-align: center;
+        width: 100%;
       }
       .text-left {
         padding-left: 12px;

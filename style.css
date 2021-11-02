@@ -13,7 +13,7 @@ body {
   margin-left: 12px;
 }
 .full-text {
-  padding-top:8%;
+  padding-top:7%;
 }
 h2 {
   font-weight: 500;
@@ -38,48 +38,36 @@ p {
   background-position: center;
   min-height: 400px;
 }
-.borderless {
-  background: none;
-	color: inherit;
-	border: none;
-	outline: inherit;
+.primary {
   min-width: 150px;
+background-color:#55799B;
+border-radius:30px;
+border:1px solid #55799B;
 cursor:pointer;
 font-size:16px;
-margin-left: -24px;
 font-weight: 600;
 padding:10px 20px;
-
 } 
-.borderless-main{
-  padding-left: 12px;
-}
-.borderless a{
+.primary a{
 text-decoration: none;
-color:#55799B;
+color:#ffffff;
 }
-.borderless:hover {
-text-decoration: underline;
+.primary:hover {
+background-color:#446688;
+} 
+.button-text{
+  text-align: left;
+  padding-left: 24px;
 }
-.borderless a:after {
-  font-family: FontAwesome;
-  content: "\f054";
-  font-size: 1em;
-  color:#55799B;
-  padding-left:5px
-}
-.borderless a:after:hover {
-  color:#446688;
-  text-decoration: underline;
-
-}
-
   /* media*/
   @media(max-width: 769px){
     .full-text {
       text-align: center;
       margin: 0 auto;
-      padding-top: 19%;
+      padding-top: 15%;
+      }
+      .button-text{
+        text-align: center;
       }
       .text-left {
         padding-left: 12px;
@@ -88,7 +76,7 @@ text-decoration: underline;
   }
   @media(max-width: 426px){
     .full-text {
-      padding-top:25%;
+      padding-top:19%;
      
     }
   }
